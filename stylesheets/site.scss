@@ -1,0 +1,63 @@
+@import "bootstrap/bootstrap.scss";
+
+h1, h2, h3 {
+  color: $blue;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.site-title {
+  font-weight: 300;
+  margin-top: 1.5em;
+
+  a {
+    color: black;
+    font-size: 18px;
+    margin-left: 0.3em;
+  }
+}
+
+#jumbo {
+  background-color: $gray-200;
+  min-height: 300px;
+  padding-left: 4em;
+  padding-right: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1:last-child {
+    color: black;
+    font-weight: bold;
+  }
+}
+
+#side-bar {
+  margin-top: 2em;
+  font-weight: 300;
+  text-align: right;
+}
+
+#content {
+  margin-top: 2em;
+  border-right: 1px solid $gray-200;
+
+  h3 {
+    color: black;
+    font-weight: 300;
+    font-size: 24px;
+
+    span {
+      background-color: $gray-200;
+      padding: 0.1em 0.3em;
+    }
+  }
+}
