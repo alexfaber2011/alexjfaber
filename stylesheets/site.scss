@@ -1,7 +1,7 @@
 @import "bootstrap/bootstrap.scss";
 
 h1, h2, h3 {
-  color: $blue;
+  color: $red;
   font-weight: 300;
 }
 
@@ -49,6 +49,14 @@ p {
 #content {
   margin-top: 2em;
   border-right: 1px solid $gray-200;
+
+  h2 {
+    color: black;
+
+    b {
+      color: $red;
+    }
+  }
 
   h3 {
     color: black;
